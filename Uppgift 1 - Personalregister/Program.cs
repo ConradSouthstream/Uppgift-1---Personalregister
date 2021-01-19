@@ -25,6 +25,14 @@ namespace Uppgift_1___Personalregister
             }
             if (order == "p")
             {
+                /* För att vara riktigt ärligt har jag ingen aning om vad jag har gjort.
+                 * Jag imiterade metoden du demonstrerade för att göra en lista,
+                 * Och sedan när jag väl ska försöka presentera listan så har jag ingen riktig aning.
+                 * 
+                 * Sedan skapar det här programmet inget permanent register vilket skulle behövas.
+                 * såväl som att den skulle modifiera det permanenta registret också.
+                 * Så jag ger mig en halv poäng.
+                 */                
                 Personalregister.ForEach(Console.WriteLine);
                 goto Start;
             }
